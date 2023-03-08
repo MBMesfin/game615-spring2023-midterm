@@ -6,11 +6,13 @@ public class Playermovement : MonoBehaviour
 {
     float moveSpeed = 5f;
     float rotateSpeed = 75f;
+    //public GameManager gm;
+
 
     // Start is called before the first frame update
     void Start()
     {
-
+      //  gm = GameObject.Find("GameManager").GetComponent<GameManager>();
 
 
     }
@@ -36,6 +38,7 @@ public class Playermovement : MonoBehaviour
     {
         if (other.CompareTag("pin"))
         {
+           // gm.IncrementPlayerScore();
             Destroy(other.gameObject);
 
 

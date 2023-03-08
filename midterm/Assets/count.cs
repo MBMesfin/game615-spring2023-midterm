@@ -7,13 +7,15 @@ public class count : MonoBehaviour
 {
     public float TimeLeft;
     public bool TimerOn = false;
-    public TextMeshProUGUI ScoreText;
+    public TMP_Text ScoreText;
     public TextMeshProUGUI TimerText;
     public int score;
     // Start is called before the first frame update
     void Start()
     {
-        score = 1;
+
+        
+        score = 0;
         TimerOn = true;
         TimeLeft = 30;
 
@@ -24,12 +26,12 @@ public class count : MonoBehaviour
     {
         if (TimerOn)
         {
-            if (TimeLeft > 0 && score < 4)
+            if (TimeLeft > 0 && score < 5)
             {
                 TimeLeft -= Time.deltaTime;
                 TimerText.text = TimeLeft.ToString();
             }
-            else if (TimeLeft > 0 && score == 4)
+            else if (TimeLeft > 0 && score == 5)
             {
                 ScoreText.text = "You Win!";
             }

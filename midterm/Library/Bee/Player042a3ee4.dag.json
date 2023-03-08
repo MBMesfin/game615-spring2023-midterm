@@ -1,0 +1,1567 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "CopyFiles play/StreamingAssets/UnityServicesProjectConfiguration.json",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/com.unity.services.core/UnityServicesProjectConfiguration.json"
+      ],
+      "Outputs": [
+        "play/StreamingAssets/UnityServicesProjectConfiguration.json"
+      ],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "UnityLinker /Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/unitylinker_ber2.traceevents",
+      "Action": "\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/build/deploy/net5.0/osx-x64/UnityLinker\" --search-directory=\"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed\" --out=\"Library/Bee/artifacts/WebGL/ManagedStripped\" --include-link-xml=\"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/TypesInScenes.xml\" --include-link-xml=\"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/SerializedTypes.xml\" --include-directory=\"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed\" --profiler-report --profiler-output-file=\"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/unitylinker_ber2.traceevents\" --dotnetprofile=unityaot-linux --dotnetruntime=Il2Cpp --architecture=EmscriptenJavaScript --platform=WebGL --use-editor-options --enable-engine-module-stripping --engine-modules-asset-file=\"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/modules.asset\" --editor-data-file=\"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/EditorToUnityLinkerData.json\" --include-unity-root-assembly=\"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll\" --include-unity-root-assembly=\"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll\" --include-unity-root-assembly=\"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll\" --print-command-line --enable-analytics",
+      "ProfilerOutput": "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/unitylinker_ber2.traceevents",
+      "Inputs": [
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Microsoft.CSharp.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Web.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Diagnostics.Contracts.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.VisualScripting.Flow.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ServiceModel.Web.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Diagnostics.FileVersionInfo.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.Security.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Xml.XPath.XDocument.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Xml.Linq.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.WebSockets.Client.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.SpriteMaskModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.IO.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.ProBuilder.Csg.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Web.DynamicData.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Dynamic.Runtime.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Runtime.Serialization.Xml.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.CrashReportingModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Principal.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.VisualScripting.Core.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Reflection.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Threading.ThreadPool.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Web.RegularExpressions.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.IO.Compression.FileSystem.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Configuration.Install.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.ProBuilder.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Management.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Cryptography.Cng.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ComponentModel.EventBasedAsync.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.AssetBundleModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.ProfilerModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Cryptography.Encryption.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Runtime.CompilerServices.VisualC.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UmbraModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Data.Linq.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Threading.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Cryptography.DeriveBytes.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/TypesInScenes.xml",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/netstandard.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Runtime.DurableInstancing.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.IO.UnmanagedMemoryStream.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ServiceModel.Http.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.DirectorModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.IO.FileSystem.AccessControl.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Scheduler.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Xml.XPath.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Xml.XmlDocument.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.AccessibilityModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Data.OracleClient.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Xml.Xsl.Primitives.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Json.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.GIModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Resources.Writer.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Design.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Console.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Environments.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.Cache.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.Sockets.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.Http.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Text.Encoding.Extensions.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.NetworkInformation.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.Utilities.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Windows.Forms.DataVisualization.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Device.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.VisualScripting.State.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.DSPGraphModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.ProBuilder.Stl.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Principal.Windows.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ServiceModel.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.VFXModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Claims.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Xaml.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ServiceModel.Primitives.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Cryptography.Hashing.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Messaging.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ComponentModel.Primitives.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Drawing.Design.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.IO.FileSystem.DriveInfo.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Cryptography.X509Certificates.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Analytics.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Reflection.Primitives.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Runtime.Numerics.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.IO.FileSystem.Watcher.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Registration.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/SerializedTypes.xml",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.LocalizationModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Diagnostics.TraceSource.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Reflection.Emit.Lightweight.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.ProBuilder.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Text.Encoding.CodePages.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Linq.Expressions.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Threading.Timer.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.AssetBundleModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Mono.Data.Tds.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Accessibility.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Runtime.InteropServices.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.IO.Pipes.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.HttpListener.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Text.RegularExpressions.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UmbraModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.ProfilerModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Runtime.Serialization.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.IO.Compression.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Web.Extensions.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Threading.Tasks.Parallel.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.Http.WebRequest.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Data.DataSetExtensions.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Collections.NonGeneric.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.VisualScripting.Flow.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Collections.Concurrent.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.IdentityModel.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Threading.Overlapped.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.TerrainPhysicsModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Cryptography.Pkcs.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.ProBuilder.Csg.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.SpriteMaskModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Xml.Serialization.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Runtime.Handles.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Data.SqlClient.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ServiceModel.Activation.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.VisualScripting.Core.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.CrashReportingModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ObjectModel.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.DSPGraphModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Assembly-CSharp.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.VisualScripting.State.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Device.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.WebHeaderCollection.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.VFXModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ComponentModel.TypeConverter.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.ProBuilder.Stl.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.Mail.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Threading.Tasks.Extensions.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Linq.Parallel.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Xml.XDocument.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.LocalizationModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.SecureString.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Microsoft.Win32.Registry.AccessControl.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Registration.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Cryptography.RSA.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Analytics.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ComponentModel.Annotations.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Scheduler.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.DirectorModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.DirectoryServices.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.AccessibilityModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.IO.FileSystem.Primitives.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.GIModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Cryptography.Primitives.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.IO.Compression.ZipFile.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Windows.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Linq.Queryable.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Resources.ResourceManager.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Resources.Reader.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Collections.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Environments.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Reflection.Emit.ILGeneration.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Data.Common.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.NameResolution.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Environments.Internal.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Mono.Data.Sqlite.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.DirectoryServices.Protocols.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Runtime.Serialization.Formatters.Soap.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ComponentModel.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Threading.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.EnterpriseServices.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.PerformanceReportingModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ServiceProcess.ServiceController.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Data.Services.Client.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.StreamingModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Cryptography.Encryption.ECDiffieHellman.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.WebGLModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Runtime.Loader.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.WindModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityConnectModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ServiceModel.Security.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.AuthenticationManager.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.ScreenCaptureModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Xml.ReaderWriter.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Telemetry.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Threading.Tasks.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Diagnostics.Tracing.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Timeline.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.ProBuilder.KdTree.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.AppContext.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Buffers.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.ProBuilder.Poly2Tri.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.ImageConversionModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Cryptography.Encryption.ECDsa.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Cryptography.Csp.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Windows.Forms.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.VehiclesModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Networking.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Diagnostics.TextWriterTraceListener.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityCurlModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.SubstanceModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.HotReloadModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.TLSModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.AIModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Text.Encoding.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Configuration.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Internal.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ServiceModel.Internals.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Transactions.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Newtonsoft.Json.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.IO.MemoryMappedFiles.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Cryptography.OpenSsl.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Web.Services.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Microsoft.Win32.Registry.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Globalization.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Cryptography.RandomNumberGenerator.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Data.Entity.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Collections.Specialized.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Cryptography.ProtectedData.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ValueTuple.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Runtime.Remoting.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Xml.XPath.XmlDocument.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Runtime.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.ServicePoint.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Xml.XmlSerializer.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Reflection.Extensions.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Globalization.Extensions.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Runtime.Extensions.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Data.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Resources.ReaderWriter.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Cryptography.Encoding.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.AndroidJNIModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.IO.IsolatedStorage.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Runtime.Caching.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Threading.AccessControl.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.ClothModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UNETModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ServiceModel.NetTcp.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/EditorToUnityLinkerData.json",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Web.Extensions.Design.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.ProBuilder.KdTree.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.AccessControl.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Timeline.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Reflection.TypeExtensions.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Globalization.Calendars.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.ImageConversionModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.ProBuilder.Poly2Tri.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.Requests.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.WebSockets.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Reflection.Emit.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.IO.FileSystem.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Runtime.Serialization.Json.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Networking.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Cryptography.Algorithms.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UI.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.VehiclesModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.SubstanceModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityCurlModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Threading.Thread.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Numerics.Vectors.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ServiceProcess.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Environments.Internal.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Linq.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Threading.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Diagnostics.Process.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Numerics.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.IdentityModel.Selectors.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityConnectModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Diagnostics.Tools.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.WindModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ComponentModel.Composition.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.WebGLModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.StreamingModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Telemetry.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Cryptography.Hashing.Algorithms.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Diagnostics.Debug.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Microsoft.Win32.Primitives.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Runtime.Serialization.Primitives.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityTestProtocolModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Diagnostics.TraceEvent.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Drawing.Primitives.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Drawing.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Runtime.Serialization.Formatters.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.Ping.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UNETModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.ClothModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Data.Services.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Reflection.Context.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ServiceModel.Duplex.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.AndroidJNIModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ServiceModel.Routing.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Internal.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Unity.Services.Core.Configuration.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Diagnostics.StackTrace.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.AIModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.TLSModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Reflection.DispatchProxy.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.HotReloadModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/Newtonsoft.Json.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Security.Cryptography.Encryption.Aes.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ComponentModel.DataAnnotations.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Memory.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Net.Primitives.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.ServiceModel.Discovery.dll",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.pdb",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/System.Web.ApplicationServices.dll",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/modules.asset",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/il2cpp_default_extra_types.txt",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/il2cpp_root",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/Il2CppEagerStaticClassConstructionAttribute.cs",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/Il2CppSetOptionAttribute.cs"
+      ],
+      "Outputs": [
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/unitylinker_ber2.traceevents",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/unitylinker_ber2.traceevents"
+      ],
+      "TargetDirectories": [
+        "Library/Bee/artifacts/WebGL/ManagedStripped"
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "GlobSignatures": [
+        {
+          "Path": "Library/Bee/artifacts/WebGL/ManagedStripped",
+          "Filter": "*.dll",
+          "Recurse": 1
+        },
+        {
+          "Path": "Library/Bee/artifacts/WebGL/ManagedStripped",
+          "Filter": "*.exe",
+          "Recurse": 1
+        },
+        {
+          "Path": "Library/Bee/artifacts/WebGL/ManagedStripped",
+          "Filter": "*.winmd",
+          "Recurse": 1
+        },
+        {
+          "Path": "Library/Bee/artifacts/WebGL/ManagedStripped",
+          "Filter": "*.pdb",
+          "Recurse": 1
+        },
+        {
+          "Path": "Library/Bee/artifacts/WebGL/ManagedStripped"
+        },
+        {
+          "Path": "Library/Bee/artifacts/WebGL/ManagedStripped",
+          "Filter": "UnityEngine.*Module.dll"
+        }
+      ],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "IL2CPP_CodeGen /Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/il2cpp_conv_lg0c.traceevents",
+      "Action": "\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/build/deploy/net5.0/osx-x64/il2cpp\" --convert-to-cpp --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/dummy.dll\" --data-folder=\"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/data\" --generatedcppdir=\"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" --enable-analytics --emit-method-map --dotnetprofile=unityaot-linux --profiler-report --profiler-output-file=\"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/il2cpp_conv_lg0c.traceevents\" --print-command-line",
+      "ProfilerOutput": "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/il2cpp_conv_lg0c.traceevents",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/il2cpp_default_extra_types.txt",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/il2cpp_root",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/Il2CppEagerStaticClassConstructionAttribute.cs",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/Il2CppSetOptionAttribute.cs",
+        "Library/Bee/artifacts/WebGL/ManagedStripped/dummy.dll"
+      ],
+      "Outputs": [
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/il2cpp_conv_lg0c.traceevents",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/il2cpp_conv_lg0c.traceevents"
+      ],
+      "TargetDirectories": [
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/data",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/cpp"
+      ],
+      "ToBuildDependencies": [
+        2
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "StatSignatures": [
+        {
+          "File": "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/data/Metadata"
+        }
+      ],
+      "GlobSignatures": [
+        {
+          "Path": "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/cpp",
+          "Filter": "*.cpp",
+          "Recurse": 1
+        },
+        {
+          "Path": "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/cpp",
+          "Filter": "*.c",
+          "Recurse": 1
+        },
+        {
+          "Path": "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/cpp",
+          "Filter": "*.mm",
+          "Recurse": 1
+        },
+        {
+          "Path": "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/cpp",
+          "Filter": "*.m",
+          "Recurse": 1
+        },
+        {
+          "Path": "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/cpp",
+          "Filter": "*.h",
+          "Recurse": 1
+        },
+        {
+          "Path": "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/data",
+          "Recurse": 1
+        }
+      ],
+      "DebugActionIndex": 3
+    },
+    {
+      "Annotation": "ClassRegistrationGenerator /Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/UnityClassRegistration.cpp",
+      "Action": "\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/MonoBleedingEdge/bin/mono\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/ClassRegistrationGenerator.exe\" --enable-stripping \"Library/Bee/artifacts/WebGL/ManagedStripped/UnityLinkerToEditorData.json\" \"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/EditorToUnityLinkerData.json\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/modules.asset\" \"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/UnityClassRegistration.cpp\"",
+      "Inputs": [
+        "Library/Bee/artifacts/WebGL/ManagedStripped/UnityLinkerToEditorData.json",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed/EditorToUnityLinkerData.json",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/ClassRegistrationGenerator.exe",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/modules.asset"
+      ],
+      "Outputs": [
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/UnityClassRegistration.cpp"
+      ],
+      "ToBuildDependencies": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 4
+    },
+    {
+      "Annotation": "ICallRegistrationGenerator /Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/UnityICallRegistration.cpp",
+      "Action": "\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/MonoBleedingEdge/bin/mono\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/InternalCallRegistrationWriter/InternalCallRegistrationWriter.exe\" -output=\"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/UnityICallRegistration.cpp\" -summary=\"Library/Bee/artifacts/WebGL/ManagedStripped/icallsummary.txt\" -assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/dummy.file\"",
+      "Inputs": [
+        "Library/Bee/artifacts/WebGL/ManagedStripped/dummy.file",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/InternalCallRegistrationWriter/InternalCallRegistrationWriter.exe"
+      ],
+      "Outputs": [
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/UnityICallRegistration.cpp"
+      ],
+      "ToBuildDependencies": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 5
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/_dummy_for_header_discovery",
+      "ActionType": "WriteTextFile",
+      "WriteTextFilePayload": "//dummy for header discovery",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/_dummy_for_header_discovery"
+      ],
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 6
+    },
+    {
+      "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/e9v6_gc.o",
+      "Action": "\"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -flto -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -DGC_NOT_DLL -DHAVE_BOEHM_GC -DDEFAULT_GC_NAME=\"BDWGC\" -DALL_INTERIOR_POINTERS=1 -DGC_GCJ_SUPPORT=1 -DJAVA_FINALIZATION=1 -DNO_EXECUTE_PERMISSION=1 -DGC_NO_THREADS_DISCOVERY=1 -DIGNORE_DYNAMIC_LOADING=1 -DGC_DONT_REGISTER_MAIN_STATIC_DATA=1 -DGC_VERSION_MAJOR=7 -DGC_VERSION_MINOR=7 -DGC_VERSION_MICRO=0 -DGC_THREADS=1 -DUSE_MMAP=1 -DUSE_MUNMAP=1 -DNDEBUG -I\".\" -I\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/bdwgc/libatomic_ops/src\" -I\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/bdwgc/include\" -o \"Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/e9v6_gc.o\" -Oz -fcolor-diagnostics -UGC_THREADS -UUSE_MMAP -UUSE_MUNMAP -c -xc \"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/bdwgc/extra/gc.c\"",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/bdwgc/extra/gc.c",
+        "Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/_dummy_for_header_discovery",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/e9v6_gc.o"
+      ],
+      "ToBuildDependencies": [
+        6
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/python/bin/python3"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        }
+      ],
+      "DebugActionIndex": 7,
+      "ScannerIndex": 0
+    },
+    {
+      "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/z4h6_al_handler.o",
+      "Action": "\"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -flto -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -DGC_NOT_DLL -DHAVE_BOEHM_GC -DDEFAULT_GC_NAME=\"BDWGC\" -DALL_INTERIOR_POINTERS=1 -DGC_GCJ_SUPPORT=1 -DJAVA_FINALIZATION=1 -DNO_EXECUTE_PERMISSION=1 -DGC_NO_THREADS_DISCOVERY=1 -DIGNORE_DYNAMIC_LOADING=1 -DGC_DONT_REGISTER_MAIN_STATIC_DATA=1 -DGC_VERSION_MAJOR=7 -DGC_VERSION_MINOR=7 -DGC_VERSION_MICRO=0 -DGC_THREADS=1 -DUSE_MMAP=1 -DUSE_MUNMAP=1 -DNDEBUG -I\".\" -I\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/bdwgc/libatomic_ops/src\" -I\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/bdwgc/include\" -o \"Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/z4h6_al_handler.o\" -Oz -fcolor-diagnostics -UGC_THREADS -UUSE_MMAP -UUSE_MUNMAP -c -xc \"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/bdwgc/extra/krait_signal_handler.c\"",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/bdwgc/extra/krait_signal_handler.c",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/z4h6_al_handler.o"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/python/bin/python3"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        }
+      ],
+      "DebugActionIndex": 8,
+      "ScannerIndex": 0
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/_dummy_for_header_discovery",
+      "ActionType": "WriteTextFile",
+      "WriteTextFilePayload": "//dummy for header discovery",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/_dummy_for_header_discovery"
+      ],
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 9
+    },
+    {
+      "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/j0n7_dummy.o",
+      "Action": "\"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -fno-threadsafe-statics -std=c++11 -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -flto -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/libil2cpp/pch\" -I\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/libil2cpp\" -I\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/baselib/Include\" -I\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/j0n7_dummy.o\" -Oz -fcolor-diagnostics -UGC_THREADS -UUSE_MMAP -UUSE_MUNMAP -c -xc++ \"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/dummy.cpp\"",
+      "Inputs": [
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/dummy.cpp",
+        "Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/_dummy_for_header_discovery",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/j0n7_dummy.o"
+      ],
+      "ToBuildDependencies": [
+        3,
+        9
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/python/bin/python3"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        }
+      ],
+      "DebugActionIndex": 10,
+      "ScannerIndex": 1
+    },
+    {
+      "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/f5s3_gistration.o",
+      "Action": "\"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -fno-threadsafe-statics -std=c++11 -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -flto -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/libil2cpp/pch\" -I\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/libil2cpp\" -I\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/baselib/Include\" -I\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/f5s3_gistration.o\" -Oz -fcolor-diagnostics -UGC_THREADS -UUSE_MMAP -UUSE_MUNMAP -c -xc++ \"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/UnityClassRegistration.cpp\"",
+      "Inputs": [
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/UnityClassRegistration.cpp",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/f5s3_gistration.o"
+      ],
+      "ToBuildDependencies": [
+        4
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/python/bin/python3"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        }
+      ],
+      "DebugActionIndex": 11,
+      "ScannerIndex": 1
+    },
+    {
+      "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/i8kq_gistration.o",
+      "Action": "\"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -fno-threadsafe-statics -std=c++11 -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -flto -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/libil2cpp/pch\" -I\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/libil2cpp\" -I\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/baselib/Include\" -I\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/i8kq_gistration.o\" -Oz -fcolor-diagnostics -UGC_THREADS -UUSE_MMAP -UUSE_MUNMAP -c -xc++ \"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/UnityICallRegistration.cpp\"",
+      "Inputs": [
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/UnityICallRegistration.cpp",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/i8kq_gistration.o"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/python/bin/python3"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        }
+      ],
+      "DebugActionIndex": 12,
+      "ScannerIndex": 1
+    },
+    {
+      "Annotation": "Lib_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/GameAssembly.bc",
+      "Action": "\"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar\" qcL \"Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/GameAssembly.bc\" \"Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/j0n7_dummy.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/f5s3_gistration.o\" \"Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/i8kq_gistration.o\" \"Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/e9v6_gc.o\" \"Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/z4h6_al_handler.o\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/Variations/development/baselib.bc\"",
+      "Inputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/j0n7_dummy.o",
+        "Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/f5s3_gistration.o",
+        "Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/i8kq_gistration.o",
+        "Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/e9v6_gc.o",
+        "Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/z4h6_al_handler.o",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/Variations/development/baselib.bc",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/GameAssembly.bc"
+      ],
+      "ToBuildDependencies": [
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/python/bin/python3"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        }
+      ],
+      "CachingMode": "ByLeafInputs",
+      "DebugActionIndex": 13
+    },
+    {
+      "Annotation": "CopyFiles /Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.bc",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/GameAssembly.bc"
+      ],
+      "Outputs": [
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.bc"
+      ],
+      "ToBuildDependencies": [
+        13
+      ],
+      "DebugActionIndex": 14
+    },
+    {
+      "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/8995565923215908413.rsp",
+      "ActionType": "WriteTextFile",
+      "WriteTextFilePayload": "-s \"EXPORTED_RUNTIME_METHODS=['addRunDependency','removeRunDependency','FS_createPath','FS_createDataFile','ccall','cwrap','stackTrace']\" --output_eol linux --memory-init-file 0 -s WASM=1 -O3 -g0 -s NO_EXIT_RUNTIME=1 -s \"DISABLE_EXCEPTION_CATCHING=0\" -s \"FULL_ES3=1\" -s \"MAX_WEBGL_VERSION=2\" -s \"GL_EXPLICIT_UNIFORM_LOCATION=1\" -s \"GL_EXPLICIT_UNIFORM_BINDING=1\" -s \"DYNCALLS=1\" -s \"INITIAL_MEMORY=32MB\" -s \"ALLOW_MEMORY_GROWTH=1\" -s \"ASSERTIONS=0\" -o \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js\" --js-library \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/FileSystem.js\" --js-library \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/case_1371148_patch_library_html5_firefox_touchevents.js\" --js-library \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/SystemInfo.js\" --js-library \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/Sensor.js\" --js-library \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/Logging.js\" --js-library \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/_patch_library_exceptions.js\" --js-library \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/Profiler.js\" --js-library \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/Eval.js\" --js-library \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/Audio.js\" --js-library \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/WebRequest.js\" --js-library \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/Cursor.js\" --js-library \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/DOM.js\" --js-library \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/dlopen.js\" --js-library \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/Video.js\" --js-library \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/WebCam.js\" --js-library \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/UnetWebSocket.js\" --js-library \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/ScreenOrientation.js\" --pre-js \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/UserJsprePlaceholder.js\" --pre-js \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/prejs/bw-compat.js\" --pre-js \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/prejs/SendMessage.js\" --pre-js \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/prejs/Error.js\" --pre-js \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/prejs/MediaDevices.js\" --pre-js \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/prejs/IdbFs.js\" --pre-js \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/prejs/FullScreen.js\" \"/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.bc\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_CoreModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIElementsNativeModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AndroidJNIModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UmbraModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestWWWModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityCurlModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityTestProtocolModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SpriteMaskModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_StreamingModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ScreenCaptureModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_Physics2DModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PhysicsModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AIModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityAnalyticsModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ProfilerModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AccessibilityModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_InputModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AssetBundleModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextCoreFontEngineModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_RuntimeInitializeOnLoadManagerInitializerModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VFXModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VehiclesModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ImageConversionModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIElementsModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VideoModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_InputLegacyModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_DSPGraphModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SharedInternalsModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AnimationModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ParticleSystemModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityAnalyticsCommonModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityConnectModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_XRModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GridModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UNETModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextRenderingModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SubsystemsModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestTextureModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_DirectorModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TerrainPhysicsModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_CrashReportingModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SubstanceModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_LocalizationModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_IMGUIModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestAudioModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_HotReloadModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AudioModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_JSONSerializeModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextCoreTextEngineModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TLSModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TerrainModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WebGLModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestAssetBundleModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SpriteShapeModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GIModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VRModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ClothModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WindModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GameCenterModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TilemapModule_Dynamic.a\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PerformanceReportingModule_Dynamic.a\" ",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/rsp/8995565923215908413.rsp"
+      ],
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 15
+    },
+    {
+      "Annotation": "Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)",
+      "Action": "\"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc\" @\"Library/Bee/artifacts/rsp/8995565923215908413.rsp\"",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/FileSystem.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/case_1371148_patch_library_html5_firefox_touchevents.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/SystemInfo.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/Sensor.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/Logging.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/_patch_library_exceptions.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/Profiler.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/Eval.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/Audio.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/WebRequest.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/Cursor.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/DOM.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/dlopen.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/Video.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/WebCam.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/UnetWebSocket.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/ScreenOrientation.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/UserJsprePlaceholder.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/prejs/bw-compat.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/prejs/SendMessage.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/prejs/Error.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/prejs/MediaDevices.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/prejs/IdbFs.js",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/prejs/FullScreen.js",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.bc",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_CoreModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIElementsNativeModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AndroidJNIModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UmbraModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestWWWModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityCurlModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityTestProtocolModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SpriteMaskModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_StreamingModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ScreenCaptureModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_Physics2DModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PhysicsModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AIModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityAnalyticsModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ProfilerModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AccessibilityModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_InputModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AssetBundleModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextCoreFontEngineModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_RuntimeInitializeOnLoadManagerInitializerModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VFXModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VehiclesModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ImageConversionModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIElementsModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VideoModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_InputLegacyModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_DSPGraphModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SharedInternalsModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AnimationModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ParticleSystemModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityAnalyticsCommonModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityConnectModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_XRModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GridModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UNETModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextRenderingModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SubsystemsModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestTextureModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_DirectorModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TerrainPhysicsModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_CrashReportingModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SubstanceModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_LocalizationModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_IMGUIModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestAudioModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_HotReloadModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AudioModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_JSONSerializeModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextCoreTextEngineModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TLSModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TerrainModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WebGLModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestAssetBundleModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SpriteShapeModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GIModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VRModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ClothModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WindModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GameCenterModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TilemapModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PerformanceReportingModule_Dynamic.a",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc",
+        "Library/Bee/artifacts/rsp/8995565923215908413.rsp"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js",
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
+      ],
+      "ToBuildDependencies": [
+        14,
+        15
+      ],
+      "FrontendResponseFiles": [
+        "Library/Bee/artifacts/rsp/8995565923215908413.rsp"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/python/bin/python3"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        }
+      ],
+      "CachingMode": "ByLeafInputs",
+      "DebugActionIndex": 16
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build.framework.js_mumr.info",
+      "ActionType": "WriteTextFile",
+      "WriteTextFilePayload": "{\"WebGLPlayerBuildProgram.FrameworkAssembler+Data\":{\"threadsSupport\":false,\"source\":\"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js\",\"jsprePlugins\":[]},\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"WebGLPlayerBuildProgram.FrameworkAssembler\",\"methodName\":\"Run\",\"assemblyLocation\":\"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\",\"targets\":[\"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js\"],\"inputs\":[\"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js\"],\"targetDirectories\":[]}}",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/csharpactions/build.framework.js_mumr.info"
+      ],
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 17
+    },
+    {
+      "Annotation": "FrameworkAssembler Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js",
+      "Action": "\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/Bee:/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/build.framework.js_mumr.info\"",
+      "Inputs": [
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js",
+        "Library/Bee/artifacts/csharpactions/build.framework.js_mumr.info",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/modules.asset",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.pdb",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.pdb",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
+      ],
+      "ToBuildDependencies": [
+        16,
+        17
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 18
+    },
+    {
+      "Annotation": "CopyFiles play/Build/play.framework.js",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
+      ],
+      "Outputs": [
+        "play/Build/play.framework.js"
+      ],
+      "ToBuildDependencies": [
+        18
+      ],
+      "DebugActionIndex": 19
+    },
+    {
+      "Annotation": "CopyFiles play/Build/play.wasm",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
+      ],
+      "Outputs": [
+        "play/Build/play.wasm"
+      ],
+      "ToBuildDependencies": [
+        16
+      ],
+      "DebugActionIndex": 20
+    },
+    {
+      "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WebGL/ManagedStripped/UnityLinkerToEditorData.json"
+      ],
+      "Outputs": [
+        "Temp/EditorBuildOutput/UnityLinkerToEditorData.json"
+      ],
+      "ToBuildDependencies": [
+        2
+      ],
+      "DebugActionIndex": 21
+    },
+    {
+      "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Symbols/MethodMap.tsv"
+      ],
+      "Outputs": [
+        "Temp/EditorBuildOutput/MethodMap.tsv"
+      ],
+      "ToBuildDependencies": [
+        3
+      ],
+      "DebugActionIndex": 22
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
+      "ActionType": "WriteTextFile",
+      "WriteTextFilePayload": "{\"System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]\":{\"Library/PlayerDataCache/WebGL/Data/data.unity3d\":\"data.unity3d\",\"Library/PlayerDataCache/WebGL/Data/boot.config\":\"boot.config\",\"Library/PlayerDataCache/WebGL/Data/RuntimeInitializeOnLoads.json\":\"RuntimeInitializeOnLoads.json\",\"Library/PlayerDataCache/WebGL/Data/ScriptingAssemblies.json\":\"ScriptingAssemblies.json\",\"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/data/unity_default_resources\":\"Resources/unity_default_resources\",\"Temp/StagingArea/Data/Resources/unity_builtin_extra\":\"Data/Resources/unity_builtin_extra\"},\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"WebGLPlayerBuildProgram.DataAssembler\",\"methodName\":\"Run\",\"assemblyLocation\":\"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\",\"targets\":[\"Library/Bee/artifacts/WebGL/webgl.data\"],\"inputs\":[\"Library/PlayerDataCache/WebGL/Data/data.unity3d\",\"Library/PlayerDataCache/WebGL/Data/boot.config\",\"Library/PlayerDataCache/WebGL/Data/RuntimeInitializeOnLoads.json\",\"Library/PlayerDataCache/WebGL/Data/ScriptingAssemblies.json\",\"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/data/unity_default_resources\",\"Temp/StagingArea/Data/Resources/unity_builtin_extra\"],\"targetDirectories\":[]}}",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info"
+      ],
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 23
+    },
+    {
+      "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
+      "Action": "\"/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/Bee:/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info\"",
+      "Inputs": [
+        "Library/PlayerDataCache/WebGL/Data/data.unity3d",
+        "Library/PlayerDataCache/WebGL/Data/boot.config",
+        "Library/PlayerDataCache/WebGL/Data/RuntimeInitializeOnLoads.json",
+        "Library/PlayerDataCache/WebGL/Data/ScriptingAssemblies.json",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/data/unity_default_resources",
+        "Temp/StagingArea/Data/Resources/unity_builtin_extra",
+        "Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/modules.asset",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.pdb",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.pdb",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/webgl.data"
+      ],
+      "ToBuildDependencies": [
+        23
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 24
+    },
+    {
+      "Annotation": "CopyFiles play/Build/play.data",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WebGL/webgl.data"
+      ],
+      "Outputs": [
+        "play/Build/play.data"
+      ],
+      "ToBuildDependencies": [
+        24
+      ],
+      "DebugActionIndex": 25
+    },
+    {
+      "Annotation": "PreprocessJS play/Build/play.loader.js",
+      "Action": "cd \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='/Users/mikkimesfin/Documents/GitHub/game615\\x2dspring2023\\x2dmidterm/midterm/play/Build/play.loader.js'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='midterm'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='play.data'\" \"FRAMEWORK_FILENAME='play.framework.js'\" \"CODE_FILENAME='play.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=16777216\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.15f1'\" \"LOADER_FILENAME='play.loader.js'\"",
+      "Inputs": [
+        "UnityLoader/UnityLoader.js"
+      ],
+      "Outputs": [
+        "play/Build/play.loader.js"
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 26
+    },
+    {
+      "Annotation": "PreprocessJS play/index.html",
+      "Action": "cd \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='/Users/mikkimesfin/Documents/GitHub/game615\\x2dspring2023\\x2dmidterm/midterm/play/index.html'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='midterm'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='play.data'\" \"FRAMEWORK_FILENAME='play.framework.js'\" \"CODE_FILENAME='play.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=16777216\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.15f1'\" \"LOADER_FILENAME='play.loader.js'\"",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
+      ],
+      "Outputs": [
+        "play/index.html"
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 27
+    },
+    {
+      "Annotation": "CopyFiles play/TemplateData/fullscreen-button.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/fullscreen-button.png"
+      ],
+      "Outputs": [
+        "play/TemplateData/fullscreen-button.png"
+      ],
+      "DebugActionIndex": 28
+    },
+    {
+      "Annotation": "CopyFiles play/TemplateData/unity-logo-dark.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/unity-logo-dark.png"
+      ],
+      "Outputs": [
+        "play/TemplateData/unity-logo-dark.png"
+      ],
+      "DebugActionIndex": 29
+    },
+    {
+      "Annotation": "CopyFiles play/TemplateData/favicon.ico",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/favicon.ico"
+      ],
+      "Outputs": [
+        "play/TemplateData/favicon.ico"
+      ],
+      "DebugActionIndex": 30
+    },
+    {
+      "Annotation": "CopyFiles play/TemplateData/progress-bar-empty-light.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-empty-light.png"
+      ],
+      "Outputs": [
+        "play/TemplateData/progress-bar-empty-light.png"
+      ],
+      "DebugActionIndex": 31
+    },
+    {
+      "Annotation": "CopyFiles play/TemplateData/webgl-logo.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/webgl-logo.png"
+      ],
+      "Outputs": [
+        "play/TemplateData/webgl-logo.png"
+      ],
+      "DebugActionIndex": 32
+    },
+    {
+      "Annotation": "PreprocessJS play/TemplateData/style.css",
+      "Action": "cd \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='/Users/mikkimesfin/Documents/GitHub/game615\\x2dspring2023\\x2dmidterm/midterm/play/TemplateData/style.css'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='midterm'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='play.data'\" \"FRAMEWORK_FILENAME='play.framework.js'\" \"CODE_FILENAME='play.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=16777216\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.15f1'\" \"LOADER_FILENAME='play.loader.js'\"",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
+      ],
+      "Outputs": [
+        "play/TemplateData/style.css"
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 33
+    },
+    {
+      "Annotation": "CopyFiles play/TemplateData/progress-bar-full-dark.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-full-dark.png"
+      ],
+      "Outputs": [
+        "play/TemplateData/progress-bar-full-dark.png"
+      ],
+      "DebugActionIndex": 34
+    },
+    {
+      "Annotation": "CopyFiles play/TemplateData/progress-bar-full-light.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-full-light.png"
+      ],
+      "Outputs": [
+        "play/TemplateData/progress-bar-full-light.png"
+      ],
+      "DebugActionIndex": 35
+    },
+    {
+      "Annotation": "CopyFiles play/TemplateData/progress-bar-empty-dark.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/progress-bar-empty-dark.png"
+      ],
+      "Outputs": [
+        "play/TemplateData/progress-bar-empty-dark.png"
+      ],
+      "DebugActionIndex": 36
+    },
+    {
+      "Annotation": "CopyFiles play/TemplateData/unity-logo-light.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/unity-logo-light.png"
+      ],
+      "Outputs": [
+        "play/TemplateData/unity-logo-light.png"
+      ],
+      "DebugActionIndex": 37
+    },
+    {
+      "Annotation": "Player",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        14,
+        19,
+        20,
+        21,
+        22,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 38
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.BuildTools.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Core.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.DotNet.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Tools.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TundraBackend.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/ClassRegistrationGenerator.exe"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/NiceIO.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/SharpYaml.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Linker.Api.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Options.dll"
+    },
+    {
+      "File": "Library/Bee/Player042a3ee4-inputdata.json"
+    }
+  ],
+  "StatSignatures": [
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/zlib"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/libil2cpp"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/libil2cpp/codegen"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/libil2cpp/gc"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/libil2cpp/os"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/libil2cpp/os/ClassLibraryPAL/brotli"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/libil2cpp/utils"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/libil2cpp/vm-utils"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/libil2cpptiny"
+    },
+    {
+      "File": "Library/Bee/Player042a3ee4-inputdata.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport"
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib",
+      "Filter": "*.js"
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules",
+      "Filter": "*.bc"
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/lib/modules",
+      "Filter": "*.a"
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/prejs",
+      "Filter": "*.js"
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default",
+      "Recurse": 1
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp"
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/BuildPipeline"
+    },
+    {
+      "Path": "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Temp/StagingArea/Data/Managed"
+    },
+    {
+      "Path": "Assets/StreamingAssets",
+      "Recurse": 1
+    },
+    {
+      "Path": "Library/PlayerDataCache/WebGL/Data",
+      "Recurse": 1
+    },
+    {
+      "Path": "Temp/StagingArea/Data/UnitySubsystems",
+      "Recurse": 1
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".winmd",
+    ".pdb",
+    ".cpp",
+    ".cc",
+    ".c",
+    ".hpp",
+    ".h",
+    ".json",
+    ".xml",
+    ".txt",
+    ".config"
+  ],
+  "StructuredLogFileName": "Library/Bee/tundra.log.json",
+  "StateFileName": "Library/Bee/TundraBuildState.state",
+  "StateFileNameTmp": "Library/Bee/TundraBuildState.state.tmp",
+  "StateFileNameMapped": "Library/Bee/TundraBuildState.state.map",
+  "ScanCacheFileName": "Library/Bee/tundra.scancache",
+  "ScanCacheFileNameTmp": "Library/Bee/tundra.scancache.tmp",
+  "DigestCacheFileName": "Library/Bee/tundra.digestcache",
+  "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
+  "EmitDataForBeeWhy": 0,
+  "DirectoriesCausingImplicitDependencies": [
+    "Library/Bee/artifacts/WebGL/ManagedStripped",
+    "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/data",
+    "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/cpp"
+  ],
+        "NamedNodes": {
+          "all_tundra_nodes": 0,
+          "Player": 38
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [
+    {
+      "Kind": "cpp",
+      "IncludePaths": [
+        ".",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/bdwgc/libatomic_ops/src",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/bdwgc/include"
+      ]
+    },
+    {
+      "Kind": "cpp",
+      "IncludePaths": [
+        ".",
+        "/Users/mikkimesfin/Documents/GitHub/game615-spring2023-midterm/midterm/Library/Bee/artifacts/WebGL/il2cppOutput/cpp",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/libil2cpp/pch",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/libil2cpp",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/baselib/Include",
+        "/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/il2cpp/external/baselib/Platforms/WebGL/Include"
+      ]
+    }
+  ],
+  "Identifier": "Library/Bee/Player042a3ee4.dag.json",
+  "RelativePathToRoot": "../.."
+}
