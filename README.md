@@ -1,6 +1,7 @@
 # game615-spring2023-midterm
 
 Game: Run to the tree whille collecting the bowling pins to win!
+Tap the spacebar to see an exciting suprise along your journey 
 
 
 Playable Link: 
