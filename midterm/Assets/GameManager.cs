@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 
     //public float playerScore = 0;
     //public int score;
-    //// Start is called before the first frame update
+    
     //void Start()
     //{
         

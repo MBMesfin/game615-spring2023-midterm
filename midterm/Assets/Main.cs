@@ -19,7 +19,7 @@ void Update()
     if (Input.GetKeyDown(KeyCode.Space))
     {
         //this instantiates cars to fly when spacebar is pressed    
-        for (int i = 0; i < 100; i++)
+        for (int i = 0; i < 70; i++)
         {
             GameObject carobj = Instantiate(oldCar, gameObject.transform.position, Quaternion.identity);
             float rotXAmount = Random.Range(-89, -10);
