@@ -10,6 +10,7 @@ Bowling Pin by Jakob Hippe [CC-BY] via Poly Pizza
 
 Little Man by Don Carson [CC-BY] via Poly Pizza
 
+80s Car by Nick Ladd [CC-BY] via Poly Pizza
 
 Vine Covered Tree by Zacharylll [CC-BY] via Poly Pizza
 
